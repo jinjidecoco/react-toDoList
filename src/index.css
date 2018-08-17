@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container .input{
+  padding:10px;
+  width:300px;
+  vertical-align: middle;
+  font-size:16px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  outline:none;
+}
+.container .button{
+	vertical-align: middle;
+	margin-left:10px;
+	padding:10px 15px;
+	border-radius:4px;
+	background: #4a8aee;
+	color:#fff;
+	border:1px solid #4a8aee;
+	outline:none;
+}
+.container .footer{
+	background: #dee6e5;
+	width:40%;
+	padding:10px 0;
+	margin-bottom:20px;
+	display: none;
+
+}
+.container .footer.show{
+	display: inline-block;
+}
+.footer .yellow{
+	color: red;
+}
+.footer .green{
+	color: green;
+}
+.item{
+	width:35%;
+	margin-left:375px;
+	padding:5px;
+	border:1px solid #ccc;
+	font-size:16px;
+	text-align: left;
+	list-style: none;
+	margin-bottom: 5px;
+
+}
+.item .checkbox{
+	zoom:180%;
+	vertical-align: middle;
+}
+.item .content {
+/*	margin-left:15px;
+*/	color:#ccc;
+	text-decoration:line-through;
+}
+.item .delete{
+	cursor:default;
+	 color: red;
+	 float: right;
+	 line-height: 28px
+}
+
+
